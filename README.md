@@ -1,7 +1,5 @@
 # travel
 
-# bus
-
 The F2E Week 1
 
 ## 首頁
