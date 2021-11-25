@@ -866,8 +866,8 @@ $input-border-width: $input-btn-border-width !default;
 $input-box-shadow: $box-shadow-inset !default;
 
 $input-border-radius: 61px !default;
-$input-border-radius-sm: $border-radius-sm !default;
-$input-border-radius-lg: $border-radius-lg !default;
+$input-border-radius-sm: $input-border-radius !default;
+$input-border-radius-lg: $input-border-radius !default;
 
 $input-focus-bg: $input-bg !default;
 $input-focus-border-color: transparent !default;

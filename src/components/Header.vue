@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="@/assets/logo.png" alt="logo" />
@@ -16,15 +16,19 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="input-group w-50">
+        <div class="input-group input-group-sm w-50">
           <input
             type="text"
-            class="form-control"
-            placeholder="Search"
-            aria-label="Search"
+            class="form-control bg-white border-0"
+            placeholder="想要去哪？"
+            aria-label="想要去哪？"
             aria-describedby="search-header"
           />
-          <button class="btn border" type="button" id="search-header">
+          <button
+            class="btn border-0 bg-white d-flex align-items-center justify-content-center"
+            type="button"
+            id="search-header"
+          >
             <img src="@/assets/img/search.svg" alt="search" />
           </button>
         </div>
@@ -40,3 +44,9 @@
   </nav>
 </template>
 <script></script>
+
+<style lang="scss" scoped>
+.navbar {
+  background-color: var(--bs-gray-200);
+}
+</style>
