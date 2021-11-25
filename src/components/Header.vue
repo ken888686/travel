@@ -16,18 +16,24 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <button class="btn">
+        <div class="input-group w-50">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search"
+            aria-label="Search"
+            aria-describedby="search-header"
+          />
+          <button class="btn border" type="button" id="search-header">
             <img src="@/assets/img/search.svg" alt="search" />
           </button>
-        </form>
+        </div>
 
         <form class="container-fluid d-flex justify-content-end">
-          <button class="btn btn-outline-success me-2" type="button">找景點</button>
-          <button class="btn btn-outline-success me-2" type="button">找餐廳</button>
-          <button class="btn btn-outline-success me-2" type="button">找飯店</button>
-          <button class="btn btn-outline-success ms-4" type="button">我的旅程</button>
+          <button class="btn btn-outline-primary me-2" type="button">找景點</button>
+          <button class="btn btn-outline-primary me-2" type="button">找餐廳</button>
+          <button class="btn btn-outline-primary me-2" type="button">找飯店</button>
+          <button class="btn btn-outline-primary ms-4" type="button">我的旅程</button>
         </form>
       </div>
     </div>

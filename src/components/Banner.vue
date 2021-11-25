@@ -11,21 +11,32 @@
       "
     >
       <h1 class="text-nowrap fw-bold">開始實現你的夢想旅程</h1>
-      <input
-        type="text"
-        class="form-control"
-        placeholder="想要去哪？"
-        aria-label="想要去哪？"
-        aria-describedby="button-addon2"
-      />
-      <button class="btn btn-outline-light" type="button" id="button-addon2">
-        <img src="@/assets/img/search.svg" alt="search" />
-      </button>
+
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          :placeholder="placeholder"
+          :aria-label="placeholder"
+          aria-describedby="search-banner"
+        />
+        <button class="btn bg-white" type="button" id="search-banner">
+          <img src="@/assets/img/search.svg" alt="search" />
+        </button>
+      </div>
     </div>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      placeholder: '想要去哪？',
+    };
+  },
+  methods: {},
+  mounted() {},
+};
 </script>
 
 <style lang="scss" scoped>
