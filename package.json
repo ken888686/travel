@@ -1,12 +1,22 @@
 {
   "name": "travel",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "The F2E Week 1 - Travel",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ken888686/travel.git"
+  },
+  "author": "Aaron Tu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ken888686/travel/issues"
+  },
+  "homepage": "https://github.com/ken888686/travel#readme",
   "dependencies": {
     "@popperjs/core": "^2.11.0",
     "bootstrap": "^5.1.3",
