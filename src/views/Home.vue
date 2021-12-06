@@ -3,8 +3,16 @@
     <img alt="Vue logo" src="@/assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div> -->
-  <button type="button" class="btn btn-primary">找景點</button>
-  <button type="button" class="btn tag tag-outline" disabled>文化活動</button>
+  <div class="input-group flex-nowrap">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Username"
+      aria-label="Username"
+      aria-describedby="addon-wrapping"
+    />
+    <span class="input-group-text" id="addon-wrapping">@</span>
+  </div>
 </template>
 
 <script setup>
