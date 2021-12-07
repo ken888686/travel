@@ -1,3 +1,16 @@
-.input-group {
-  border-radius: 61px;
+.input-group-custom {
+  display: flex;
+
+  .form-control {
+    border-radius: 61px 0 0 61px;
+    border: 1px solid red;
+  }
+
+  // &:hover {
+  //   .form-control,
+  //   .btn {
+  //     background-color: $gray-300;
+  //     transition: $transition-base;
+  //   }
+  // }
 }
