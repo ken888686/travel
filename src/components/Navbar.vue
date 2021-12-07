@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <router-link class="navbar-brand" to="/">
         <img src="@/assets/logo.png" alt="logo" />
-      </a>
+      </router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -24,25 +24,25 @@
         </form>
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link to="/" class="btn btn-outline-primary">
+            <router-link to="/tour" class="btn btn-outline-primary">
               找景點
               <img src="@/assets/icons/tour.svg" alt="找景點" />
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/" class="btn btn-outline-primary">
+            <router-link to="/food" class="btn btn-outline-primary">
               找餐廳
               <img src="@/assets/icons/food.svg" alt="找餐廳" />
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/" class="btn btn-outline-primary">
+            <router-link to="/hotel" class="btn btn-outline-primary">
               找飯店
               <img src="@/assets/icons/bed.svg" alt="找飯店" />
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/" class="btn btn-outline-primary">我的旅程</router-link>
+            <router-link to="/my-journey" class="btn btn-outline-primary">我的旅程</router-link>
           </li>
         </ul>
       </div>
