@@ -1,11 +1,3 @@
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-
-// scss-docs-start import-stack
 // Configuration
 @import "node_modules/bootstrap/scss/functions";
 @import "bootstrap/variables";
@@ -13,11 +5,21 @@
 @import "node_modules/bootstrap/scss/utilities";
 
 // Layout & components
+
+// 設置全域 css 變數
+// bs- 作為前綴避免與第三方套件的樣式衝突
 @import "node_modules/bootstrap/scss/root";
+// css reset 設置
 @import "node_modules/bootstrap/scss/reboot";
+// 主要為文字相關的標籤、樣式設置
+// <h1>~<h6>、<small>、<list>
 @import "node_modules/bootstrap/scss/type";
+// 主要為圖片標籤的樣式設置
+// <img>、<figure>
 @import "node_modules/bootstrap/scss/images";
+// 容器設置
 @import "node_modules/bootstrap/scss/containers";
+// 格線系統設置
 @import "node_modules/bootstrap/scss/grid";
 @import "node_modules/bootstrap/scss/tables";
 @import "node_modules/bootstrap/scss/forms";
@@ -46,11 +48,13 @@
 @import "node_modules/bootstrap/scss/placeholders";
 
 // Helpers
+// 主要為一些尚未歸類到適合資料夾的樣式設定
+// eg. ratios、link-color
 @import "node_modules/bootstrap/scss/helpers";
 
 // Utilities
+// 將通用類別 _utilities.scss 實作產成 css 樣式的設置
 @import "node_modules/bootstrap/scss/utilities/api";
-// scss-docs-end import-stack
 
 // Custom
 @import "custom";
