@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid my-4">
     <div class="container d-flex justify-content-between align-items-center my-3">
-      <h3 class="m-0">
-        熱門打卡景點
+      <h3 class="m-0 fw-bold">
+        {{ props.category }}
       </h3>
       <button
         type="button"
@@ -16,7 +16,7 @@
       :freeMode="true"
     >
       <swiper-slide
-        v-for="(item, index) in cardInfo"
+        v-for="(item, index) in cards"
         :key="index"
       >
         <Card
@@ -28,6 +28,7 @@
   </div>
 </template>
 <script setup>
+import { defineProps } from 'vue';
 import { Swiper, SwiperSlide } from 'swiper/vue/swiper-vue';
 import SwiperCore, { FreeMode } from 'swiper/swiper-bundle.esm';
 import Card from '@/components/Card.vue';
@@ -36,14 +37,15 @@ import 'swiper/modules/free-mode/free-mode.scss';
 
 SwiperCore.use([FreeMode]);
 
-const card = {
-  title: '新北歡樂耶誕城',
-  score: 4.6,
-  tags: ['文化活動', '熱鬧', '新北板橋'],
-};
-const cardInfo = [];
-for (let i = 0; i < 10; i += 1) {
-  cardInfo.push(card);
-}
+const props = defineProps({
+  category: {
+    type: String,
+    default: 'Title',
+  },
+  cards: {
+    type: Array,
+    default: () => [],
+  },
+});
 </script>
 <style lang="scss"></style>

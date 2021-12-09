@@ -31,7 +31,7 @@
 </script>
 <style lang="scss" scoped>
 .bg-cover {
-  background-image: url('https://images.unsplash.com/photo-1536986334350-244da52e96ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1440&q=80');
+  background-image: url('https://images.unsplash.com/photo-1583395145517-1e3177037600?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1440&q=80');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
