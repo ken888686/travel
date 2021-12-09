@@ -3,15 +3,17 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: [
-    'plugin:vue/vue3-essential',
-    '@vue/airbnb',
-  ],
+  globals: {
+    defineProps: 'readonly',
+    defineEmits: 'readonly',
+  },
+  extends: ['plugin:vue/recommended', '@vue/airbnb'],
   parserOptions: {
     parser: 'babel-eslint',
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'vue/script-setup-uses-vars': 'error',
   },
 };

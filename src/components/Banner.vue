@@ -1,7 +1,9 @@
 <template>
   <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light bg-cover">
     <div class="col-md-5 py-lg-5 mx-auto my-5">
-      <h1 class="text-white">開始實現你的夢想旅程</h1>
+      <h1 class="text-white">
+        開始實現你的夢想旅程
+      </h1>
       <form class="d-flex input-group-custom my-3">
         <input
           type="text"
@@ -9,9 +11,16 @@
           placeholder="想要去哪？"
           aria-label="想要去哪？"
           aria-describedby="basic-addon1"
-        />
-        <button class="btn input-group-icon" type="submit">
-          <img src="@/assets/icons/search.svg" alt="search" style="height: 14px; width: 14px" />
+        >
+        <button
+          class="btn input-group-icon"
+          type="submit"
+        >
+          <img
+            src="@/assets/icons/search.svg"
+            alt="search"
+            style="height: 14px; width: 14px"
+          >
         </button>
       </form>
     </div>
