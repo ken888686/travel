@@ -1,7 +1,5 @@
 # travel
 
-# bus
-
 The F2E Week 1
 
 ## 首頁
@@ -34,34 +32,11 @@ The F2E Week 1
 - [Moment.js](https://github.com/moment/moment)
 - [於 Github page 部屬靜態 Vue.js 專案，在 History Mode 下子頁面會重新導向到 404 的解決方案。](https://unzan.medium.com/139f55323164)
 - [TDX in Postman](https://hsiangfeng.github.io/other/20210928/2005731696/)
+- [30 天轉生到 bootstrap 5 的意識界](https://ithelp.ithome.com.tw/users/20141308/ironman/4563)
 
 ## Github CI/CD
 
 - [Deploy to Github Pages](https://github.com/marketplace/actions/deploy-to-github-pages)
-
-## Project setup
-
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
 
 ### Customize configuration
 

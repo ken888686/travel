@@ -1,0 +1,114 @@
+.btn {
+  border-radius: 63px;
+  padding: 9px 21px;
+
+  &:hover {
+    color: $gray-100;
+  }
+
+  &:focus {
+    color: $gray-100;
+  }
+
+  &:disabled {
+    color: $gray-100;
+    background: $gray-300;
+    border: 1px solid $gray-300;
+  }
+
+  &-primary {
+    color: $gray-100;
+    background: $green-700;
+    border: 1px solid $green-700;
+
+    &:hover {
+      background: $green-800;
+      border: 1px solid $green-800;
+    }
+
+    &:focus {
+      background: $green-700;
+      border: 1px solid $green-700;
+      box-shadow: inset 0px 0px 4px $gray-100;
+    }
+  }
+
+  &-outline {
+    &:disabled {
+      color: $gray-300;
+      background-color: $gray-100;
+    }
+
+    &-primary {
+      color: $primary;
+      background-color: $gray-100;
+
+      &:hover {
+        color: $primary;
+        background-color: $green-100;
+      }
+
+      &:focus {
+        color: $primary;
+        background-color: $green-100;
+        box-shadow: inset 0px 0px 5px $green;
+      }
+    }
+  }
+
+  &-like {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: $gray-100;
+    border: 1px solid $green-600;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 21px;
+  color: $gray-100;
+  background-color: $green-600;
+  border: 0px;
+  font-size: $font-size-sm;
+
+  &:hover {
+    background-color: $green-700;
+  }
+
+  &:focus {
+    box-shadow: inset 0px 0px 4px $gray-100;
+    border: 0;
+  }
+
+  &-outline {
+    color: $green-600;
+    background-color: $gray-100;
+    border: 1px solid $green-600;
+
+    &:hover {
+      color: $green-700;
+      background-color: $green-200;
+    }
+
+    &:focus {
+      color: $green-600;
+      background-color: $green-100;
+      border: 1px solid $green-600;
+      box-shadow: inset 0px 0px 4px $green;
+    }
+
+    &:disabled {
+      color: $gray-300;
+      background-color: $gray-100;
+      border: 1px solid $gray-300;
+    }
+  }
+}
