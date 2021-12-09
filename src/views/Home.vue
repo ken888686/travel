@@ -1,6 +1,8 @@
 <template>
-  <Banner />
-  <CardList />
+  <div>
+    <Banner />
+    <CardList />
+  </div>
 </template>
 
 <script setup>
