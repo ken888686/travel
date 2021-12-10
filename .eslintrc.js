@@ -7,7 +7,7 @@ module.exports = {
     defineProps: 'readonly',
     defineEmits: 'readonly',
   },
-  extends: ['plugin:vue/recommended', '@vue/airbnb'],
+  extends: ['plugin:vue/vue3-recommended', '@vue/airbnb'],
   parserOptions: {
     parser: 'babel-eslint',
   },
