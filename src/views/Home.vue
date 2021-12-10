@@ -10,7 +10,7 @@
       category="Rainbow Life!"
       :cards="rainbowCards"
     />
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 import SearchBanner from '@/components/SearchBanner.vue';
 import Banner from '@/components/Banner.vue';
 import CardList from '@/components/CardList.vue';
-// import Footer from '@/components/Footer.vue';
+import Footer from '@/components/Footer.vue';
 
 const cards = [];
 for (let i = 0; i < 10; i += 1) {

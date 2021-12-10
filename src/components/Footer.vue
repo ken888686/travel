@@ -1,57 +1,102 @@
 <template>
   <div class="bg-primary">
-    <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-muted">
-          © 2021 Company, Inc
-        </p>
-
-        <a
-          href="/"
-          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+    <footer class="container d-flex justify-content-between align-items-center py-4">
+      <div class="m-0">
+        <img
+          src="@/assets/icons/brand.svg"
+          alt="Brand"
         >
-          <svg
-            class="bi me-2"
-            width="40"
-            height="32"
+        <div>
+          <a
+            href="#"
+            class="me-2"
+            target="_blank"
           >
-            <use xlink:href="#bootstrap" />
-          </svg>
-        </a>
-
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item">
+            <i class="bi bi-facebook" />
+          </a>
+          <a
+            href="#"
+            class="me-2"
+            target="_blank"
+          >
+            <i class="bi bi-line" />
+          </a>
+          <a
+            href="#"
+            target="_blank"
+          >
+            <i class="bi bi-twitter" />
+          </a>
+        </div>
+      </div>
+      <p class="m-0">
+        <ul class="row m-0 p-0 list-unstyled">
+          <li class="col d-flex flex-column justify-content-center align-items-center">
             <a
               href="#"
-              class="nav-link px-2 text-muted"
-            >Home</a>
+              class="link-light text-decoration-none"
+            >
+              找景點
+            </a>
+            <a
+              href="#"
+              class="link-light text-decoration-none"
+            >
+              主題景點
+            </a>
           </li>
-          <li class="nav-item">
+          <li class="col d-flex flex-column justify-content-center align-items-center">
             <a
               href="#"
-              class="nav-link px-2 text-muted"
-            >Features</a>
+              class="link-light text-decoration-none"
+            >
+              找景點
+            </a>
+            <a
+              href="#"
+              class="link-light text-decoration-none"
+            >
+              主題景點
+            </a>
           </li>
-          <li class="nav-item">
+          <li class="col d-flex flex-column justify-content-center align-items-center">
             <a
               href="#"
-              class="nav-link px-2 text-muted"
-            >Pricing</a>
+              class="link-light text-decoration-none"
+            >
+              找餐廳
+            </a>
+            <a
+              href="#"
+              class="link-light text-decoration-none"
+            >
+              主題餐廳
+            </a>
           </li>
-          <li class="nav-item">
+          <li class="col d-flex flex-column justify-content-center align-items-center">
             <a
               href="#"
-              class="nav-link px-2 text-muted"
-            >FAQs</a>
-          </li>
-          <li class="nav-item">
+              class="link-light text-decoration-none"
+            >
+              會員登入
+            </a>
             <a
               href="#"
-              class="nav-link px-2 text-muted"
-            >About</a>
+              class="link-light text-decoration-none"
+            >
+              商家專區
+            </a>
           </li>
         </ul>
-      </footer>
-    </div>
+      </p>
+      <p class="m-0">
+        Copyright ©
+      </p>
+    </footer>
   </div>
 </template>
+<style lang="scss" scoped>
+i {
+  color: var(--bs-gray-100);
+}
+</style>
