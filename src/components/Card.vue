@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card my-3">
     <div class="position-relative">
       <img
         src="@/assets/images/card-img.png"
