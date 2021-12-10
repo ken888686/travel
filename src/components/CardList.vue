@@ -30,10 +30,11 @@
 <script setup>
 import { defineProps } from 'vue';
 import { Swiper, SwiperSlide } from 'swiper/vue/swiper-vue';
-import SwiperCore, { FreeMode } from 'swiper/swiper-bundle.esm';
+import FreeMode from 'swiper/modules/free-mode/free-mode';
+import SwiperCore from 'swiper/swiper-bundle.esm';
 import Card from '@/components/Card.vue';
 import 'swiper/swiper.min.css';
-import 'swiper/modules/free-mode/free-mode.scss';
+import 'swiper/modules/free-mode/free-mode.min.css';
 
 SwiperCore.use([FreeMode]);
 
