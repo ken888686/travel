@@ -10,10 +10,7 @@
         type="button"
         class="btn btn-outline-primary btn-like"
       >
-        <img
-          src="@/assets/icons/like.svg"
-          alt="like"
-        >
+        <i class="bi bi-heart" />
       </button>
     </div>
     <div class="card-body">

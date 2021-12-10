@@ -83,7 +83,7 @@
           <li class="nav-item col">
             <router-link
               to="/my-journey"
-              class="btn btn-outline-primary"
+              class="btn btn-primary"
             >
               我的旅程
             </router-link>

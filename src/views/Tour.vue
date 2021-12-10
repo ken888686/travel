@@ -1,3 +1,6 @@
 <template>
-  <h1>Tour</h1>
+  <SearchBanner />
 </template>
+<script setup>
+import SearchBanner from '@/components/SearchBanner.vue';
+</script>
