@@ -1,6 +1,6 @@
 <template>
   <div>
-    <SearchBanner />
+    <HomeBanner />
     <CardList
       category="熱門打卡景點"
       :cards="cards"
@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import SearchBanner from '@/components/SearchBanner.vue';
+import HomeBanner from '@/components/HomeBanner.vue';
 import Banner from '@/components/Banner.vue';
 import CardList from '@/components/CardList.vue';
 import Footer from '@/components/Footer.vue';

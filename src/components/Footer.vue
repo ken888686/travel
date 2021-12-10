@@ -89,7 +89,7 @@
           </li>
         </ul>
       </p>
-      <p class="m-0">
+      <p class="m-0 text-light">
         Copyright ©
       </p>
     </footer>
