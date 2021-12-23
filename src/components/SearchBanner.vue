@@ -84,11 +84,4 @@
     backdrop-filter: blur(21px);
   }
 }
-
-// .filter {
-//   background: #616161;
-//   mix-blend-mode: multiply;
-//   opacity: 0.4;
-//   backdrop-filter: blur(21px);
-// }
 </style>
