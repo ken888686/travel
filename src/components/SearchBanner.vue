@@ -1,5 +1,8 @@
 <template>
-  <div class="bg-cover">
+  <div
+    class="bg-cover"
+    :style="{ backgroundImage: `url(${imgSrc})` }"
+  >
     <div class="container py-5">
       <h1 class="text-light fw-bold">
         景點列表
@@ -62,10 +65,20 @@
     </div>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import { defineProps, ref } from 'vue';
+
+const props = defineProps({
+  imgSrc: {
+    type: String,
+    default: '',
+  },
+});
+
+const imgSrc = ref(props.imgSrc);
+</script>
 <style lang="scss" scoped>
 .bg-cover {
-  background-image: url('https://images.unsplash.com/photo-1508248467877-aec1b08de376?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1440&q=80');
   background-size: cover;
   background-position: center 70%;
   background-repeat: no-repeat;
